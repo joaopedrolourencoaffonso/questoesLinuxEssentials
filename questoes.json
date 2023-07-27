@@ -1,0 +1,11 @@
+[
+    {
+        "id":0,
+        "enunciado": "Qual das opções abaixo deve ser usada com 'apt-get', para atualizar os pacotes instalados?",
+        "a":"new-version",
+        "b":"upgrade",
+        "c":"update",
+        "d":"install",
+        "resposta":"c"
+    }
+]
