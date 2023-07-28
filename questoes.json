@@ -7,5 +7,50 @@
         "c":"update",
         "d":"install",
         "resposta":"c"
+    },
+    {
+        "id":1,
+        "enunciado": "Qual das linhas abaixo seria retornada pelo comando 'grep p[ao]e arquivo.txt'?",
+        "a":"paoe",
+        "b":"pe",
+        "c":"pooe",
+        "d":"pae",
+        "resposta":"d" 
+    },
+    {
+        "id":2,
+        "enunciado": "Qual das linhas abaixo seria retornada pelo comando 'grep 12-12-202[123] app.log'?",
+        "a":"12-12-23 05:06:08 Server has started",
+        "b":"2023-12-12 12:00:32 [ERROR] Too much open files on server 3",
+        "c":"12/12/2023 08:08:14 Wrong password, failed login for user 3245, last suc",
+        "d":"12/12/2023 09:15:00 Old certificate, last request 12-12-2022",
+        "resposta":"d" 
+    },
+    {
+        "id":3,
+        "enunciado": "Qual das linhas abaixo representa um possível resultado do comando 'zgrep -c 12-12-202[123] app.log.gz'?",
+        "a":"12-12-2023 05:06:08 Server has started",
+        "b":"5",
+        "c":"'12-12-202[123]' was found 2 times ",
+        "d":"12/12/2023 09:15:00 Old certificate, last request 12-12-2022",
+        "resposta":"b" 
+    },
+    {
+        "id":4,
+        "enunciado": "Qual das linhas abaixo representa um possível resultado do comando 'grep 12-12-202[123]$ app.log'?",
+        "a":"12-12-23 05:06:08 Server has started",
+        "b":"2023-12-12 12:00:32 [ERROR] Too much open files on server 3, last such ocurrence on 12-12-2020",
+        "c":"12-12-2023 08:08:14 Wrong password, failed login for user 3245",
+        "d":"12/12/2023 09:15:00 Old certificate, last request 12-12-2021",
+        "resposta":"d" 
+    },
+    {
+        "id":5,
+        "enunciado": "Executando o comando: 'grep 12-12-202[123] app.log | wc -l' obtemos como saída '5' isso significa que...",
+        "a":"Há cinco linhas no arquivo que contém os padrões 12-12-2021, 12-12-2022 ou 12-12-2023",
+        "b":"Houve um erro na leitura do arquivo.",
+        "c":"Há cinco entradas de log referente ao ano de 2021",
+        "d":"Há cinco linhas no arquivo que contém os padrões 12-12-2021, 12-12-2022 e 12-12-2023",
+        "resposta":"a" 
     }
 ]
