@@ -52,5 +52,50 @@
         "c":"Há cinco entradas de log referente ao ano de 2021",
         "d":"Há cinco linhas no arquivo que contém os padrões 12-12-2021, 12-12-2022 e 12-12-2023",
         "resposta":"a" 
+    },
+    {
+        "id":6,
+        "enunciado": "Em um servidor CentOS, o diretório 'aves', contém os diretórios 'papagaios' e 'pelicanos'. Na linha de comando, um usuário, dentro do diretório 'pelicanos' executa o comando: 'cd ../papagaios' o comando...",
+        "a":"Não executa, pois o símbolo para diretório 'pai' no linux é: '.'",
+        "b":"Executa corretamente e o usuário acessa o diretório 'papagaios'.",
+        "c":"Executa com erro, pois na distro 'CentOS' se utiliza '\' não '/'.",
+        "d":"Executa corretamente e o usuário vai para o diretório 'aves'.",
+        "resposta":"b" 
+    },
+    {
+        "id":7,
+        "enunciado": "Em um servidor Ubuntu, um usuário executa o comando: 'cd .', como resultado...",
+        "a":"O usuário acessa o diretório home.",
+        "b":"O usuário acessa o diretório pai do diretório atual.",
+        "c":"O usuário acessa o diretório oculto '.'",
+        "d":"O usuário acessa o diretório atual",
+        "resposta":"d" 
+    },
+    {
+        "id":8,
+        "enunciado": "Em um servidor Ubuntu, um usuário executa o comando: 'cd ..', como resultado...",
+        "a":"O usuário acessa o diretório home.",
+        "b":"O usuário acessa o diretório pai do diretório atual.",
+        "c":"O usuário acessa o diretório oculto '.'",
+        "d":"O usuário acessa o diretório atual",
+        "resposta":"b" 
+    },
+    {
+        "id":9,
+        "enunciado": "Em um servidor Ubuntu, um usuário executa o comando: 'cd ~', como resultado...",
+        "a":"O usuário acessa o diretório home.",
+        "b":"O usuário acessa o diretório pai do diretório atual.",
+        "c":"O usuário acessa o diretório oculto '.'",
+        "d":"O usuário acessa o diretório atual",
+        "resposta":"a" 
+    },
+    {
+        "id":10,
+        "enunciado": "Em um servidor Ubuntu, um usuário executa o comando: '!!', como resultado...",
+        "a":"...o primeiro comando executado na sessão atual é executado novamente.",
+        "b":"...o penúltimo comando executado é executado novamente.",
+        "c":"...o último comando executado é executado novamente.",
+        "d":"...o último comando escrito é executado novamente.",
+        "resposta":"c" 
     }
 ]
