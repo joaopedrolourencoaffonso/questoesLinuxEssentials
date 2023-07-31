@@ -97,5 +97,86 @@
         "c":"...o último comando executado é executado novamente.",
         "d":"...o último comando escrito é executado novamente.",
         "resposta":"c" 
+    },
+    {
+        "id":11,
+        "enunciado": "O que significa o acrônimo 'GUI'?",
+        "a":"Graphical User Interface",
+        "b":"General User Interface",
+        "c":"Guide to User Interoperation",
+        "d":"General User Interaction",
+        "resposta":"a" 
+    },
+    {
+        "id":12,
+        "enunciado": "Qual a diferença entre 'GUI' e 'CLI'?",
+        "a":"'CLI' é a linha de comando e 'GUI' é a interface gráfica.",
+        "b":"'CLI' é a linha de comando e 'GUI' é a interface para usuários leigos.",
+        "c":"'CLI' é a interface para acesso remoto e 'GUI' é a interface gráfica.",
+        "d":"'CLI' é a interface para acesso remoto e 'GUI' é a interface para usuários leigos.",
+        "resposta":"a" 
+    },
+    {
+        "id":13,
+        "enunciado": "Qual o comando muda o diretório para o diretório 'avô' (diretório pai do diretório pai do diretório atual)?",
+        "a":"cd .. -n 2",
+        "b":"cd -r 2",
+        "c":"cd ...",
+        "d":"cd ../..",
+        "resposta":"d" 
+    },
+    {
+        "id":14,
+        "enunciado": "O comando 'su' é usado para criar um novo shell logado como usuário root?",
+        "a":"sudo",
+        "b":"use root",
+        "c":"newshell -u root",
+        "d":"su",
+        "resposta":"d" 
+    },
+    {
+        "id":15,
+        "enunciado": "Qual dos comandos abaixo pode ser usado para mostrar o nome do usuário atual?",
+        "a":"username",
+        "b":"echo $USERNAME",
+        "c":"name",
+        "d":"whoami",
+        "resposta":"d" 
+    },
+    {
+        "id":16,
+        "enunciado": "No comando 'ls', qual das opções abaixo lista os arquivos com base na data da última modificação?",
+        "a":"-a",
+        "b":"-l",
+        "c":"-m",
+        "d":"-t",
+        "resposta":"d" 
+    },
+    {
+        "id":17,
+        "enunciado": "Qual dos comandos abaixo pode ser usado para criar um arquivo?",
+        "a":"touch nome",
+        "b":"create nome",
+        "c":"make nome",
+        "d":"mv nome",
+        "resposta":"a" 
+    },
+    {
+        "id":18,
+        "enunciado": "Qual dos comandos abaixo pode ser usado para mudar o nome de um arquivo?",
+        "a":"touch nome1 nome2",
+        "b":"change nome1 nome2",
+        "c":"mv nome1 nome2",
+        "d":"move nome1 nome2",
+        "resposta":"c" 
+    },
+    {
+        "id":19,
+        "enunciado": "Em um servidor Debian, o comando: 'sudo apt-get upgrade' vai...",
+        "a":"... usar os privilégios de usuário root para atualizar todos os pacotes do sistema.",
+        "b":"... usar os privilégios de usuário root para listar todos os pacotes do sistema que estão desatualizados.",
+        "c":"... usar os privilégios de usuário root para atualizar o pacote 'apt-get'.",
+        "d":"... usar os privilégios de usuário root para mudar as permissões do usuário 'apt-get'.",
+        "resposta":"a" 
     }
 ]
