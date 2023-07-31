@@ -58,7 +58,7 @@
         "enunciado": "Em um servidor CentOS, o diretório 'aves', contém os diretórios 'papagaios' e 'pelicanos'. Na linha de comando, um usuário, dentro do diretório 'pelicanos' executa o comando: 'cd ../papagaios' o comando...",
         "a":"Não executa, pois o símbolo para diretório 'pai' no linux é: '.'",
         "b":"Executa corretamente e o usuário acessa o diretório 'papagaios'.",
-        "c":"Executa com erro, pois na distro 'CentOS' se utiliza '\' não '/'.",
+        "c":"Executa com erro, pois na distro 'CentOS' se utiliza '\\' (barra invertida) não '/' (barra).",
         "d":"Executa corretamente e o usuário vai para o diretório 'aves'.",
         "resposta":"b" 
     },
