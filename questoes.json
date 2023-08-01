@@ -178,5 +178,68 @@
         "c":"... usar os privilégios de usuário root para atualizar o pacote 'apt-get'.",
         "d":"... usar os privilégios de usuário root para mudar as permissões do usuário 'apt-get'.",
         "resposta":"a" 
+    },
+    {
+        "id":20,
+        "enunciado": "Qual dos comandos abaixo vai mostrar todos os processos associados ao seu usuário?",
+        "a":"ps -x",
+        "b":"ps -T",
+        "c":"ps -F",
+        "d":"ps -e",
+        "resposta":"a" 
+    },
+    {
+        "id":21,
+        "enunciado": "Qual dos comandos abaixo pode ser usado para copiar um arquivo?",
+        "a":"copy file1 file2",
+        "b":"double file1 file2",
+        "c":"file1 > file2",
+        "d":"cat file1 > file2",
+        "resposta":"d" 
+    },
+    {
+        "id":22,
+        "enunciado": "O comando: 'ps -a --deselect' vai exibir todos os processo que:",
+        "a":"não atendam aos requisitos passados, nesse caso: `ps -a`, ou seja, todos os processos que não estejam associados a sessão atual ou sejam líderes de sessão.",
+        "b":"não atendam aos requisitos passados, nesse caso: '', ou seja, não irá retornar nenhum processo.",
+        "c":"não atendam aos requisitos passados, nesse caso: `a`, ou seja, todos os processos que não contenham a letra 'a'.",
+        "d":"todos os processos que contenham a palavra 'deselect'.",
+        "resposta":"a" 
+    },
+    {
+        "id":23,
+        "enunciado": "O comando: 'man ps' vai...",
+        "a":"...exibir o PID do processo 'man'.",
+        "b":"...exibir uma mensagem de erro pois o correto seria: 'manual ps'.",
+        "c":"...vai exibir a página do manual sobre 'ps'.",
+        "d":"...vai executar o comando 'ps' no modo manual.",
+        "resposta":"c" 
+    },
+    {
+        "id":24,
+        "enunciado": "O comando: 'ps -eH' vai...",
+        "a":"...exibir todos os processos em formato legível ao ser humano.",
+        "b":"...exibir todos os processos em formato 'H' específico da distro Red Hat.",
+        "c":"...exibir todos os processos em formato em formato de árvore (i.e. hierarquizado).",
+        "d":"...exibir uma mensagem de erro pois o correto seria 'h' não 'H'.",
+        "resposta":"c" 
+    },
+    {
+        "id":25,
+        "enunciado": "O comando: 'ps -U banana' vai...",
+        "a":"...exibir todos os processos associados ao usuário 'banana'.",
+        "b":"...exibir todos os processos em formato 'U' específico da distro Red Hat.",
+        "c":"...exibir todos os processos em formato em formato de árvore (i.e. hierarquizado).",
+        "d":"...exibir uma mensagem de erro pois o correto seria '--user' não '-U'.",
+        "resposta":"c" 
+    },
+    {
+        "id":26,
+        "enunciado": "O comando: 'ps -UL banana' vai...",
+        "a":"...exibir todos os processos associados ao usuário 'banana' em formato longo.",
+        "b":"...exibir todos os processos em formato longo, ignorando o usuário.",
+        "c":"...exibir uma mensagem de erro pois deveria ser: '-LU joao'.",
+        "d":"...exibir uma mensagem de erro pois deveria ser: '-U joao -L'.",
+        "resposta":"d" 
     }
 ]
