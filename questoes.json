@@ -241,5 +241,14 @@
         "c":"...exibir uma mensagem de erro pois deveria ser: '-LU joao'.",
         "d":"...exibir uma mensagem de erro pois deveria ser: '-U joao -L'.",
         "resposta":"d" 
+    },
+    {
+        "id":27,
+        "enunciado": "Para matar todos os processos com o nome 'NOME', podemos usar:",
+        "a":"kill '%NOME%'",
+        "b":"END NOME",
+        "c":"killall NOME.",
+        "d":"kill -a NOME",
+        "resposta":"c" 
     }
 ]
