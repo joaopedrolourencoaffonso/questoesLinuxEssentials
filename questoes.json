@@ -250,5 +250,95 @@
         "c":"killall NOME.",
         "d":"kill -a NOME",
         "resposta":"c" 
+    },
+    {
+        "id":28,
+        "enunciado": "Qual dos conjuntos permissões abaixo permite ao dono do arquivo ler e executar o arquivo, mas não de editar?",
+        "a":"644",
+        "b":"544",
+        "c":"444",
+        "d":"744",
+        "resposta":"a" 
+    },
+    {
+        "id":29,
+        "enunciado": "Qual é o equivalente octal de: 'rwx---r-x' ?",
+        "a":"777",
+        "b":"703",
+        "c":"605",
+        "d":"705",
+        "resposta":"d" 
+    },
+    {
+        "id":30,
+        "enunciado": "Qual é a string equivalente à permissão: '123' ?",
+        "a":"--x-w-r--",
+        "b":"r---w---x",
+        "c":"r----x--w",
+        "d":"w----x--r",
+        "resposta":"a" 
+    },
+    {
+        "id":31,
+        "enunciado": "Um arquivo tem permissões: 'rwx------', se executarmos o comando: 'chperm go+rw' o novo conjunto de permissões será:",
+        "a":"766",
+        "b":"Não irá mudar a permissão pois o comando 'chperm' não existe.",
+        "c":"706",
+        "d":"Não irá permissão pois o comando está escrito errado.",
+        "resposta":"b" 
+    },
+    {
+        "id":32,
+        "enunciado": "Um arquivo tem permissões: 'rwx------', se executarmos o comando: 'chmod go-rw' o novo conjunto de permissões será:",
+        "a":"700",
+        "b":"Não irá mudar a permissão pois o comando 'chmod' não existe.",
+        "c":"766",
+        "d":"Não irá permissão pois o comando está escrito errado.",
+        "resposta":"a" 
+    },
+    {
+        "id":33,
+        "enunciado": "Um arquivo tem permissões: '---rwx---', se executarmos o comando: 'chmod --add-group rw' o novo conjunto de permissões será:",
+        "a":"070",
+        "b":"Não irá mudar a permissão pois o comando 'chmod' não existe.",
+        "c":"676",
+        "d":"Não irá permissão pois o comando está escrito errado.",
+        "resposta":"d" 
+    },
+    {
+        "id":34,
+        "enunciado": "Qual das permissões abaixo é referente a um arquivo com a permissão SUID?",
+        "a":"4744",
+        "b":"3722",
+        "c":"2711",
+        "d":"1755",
+        "resposta":"a" 
+    },
+    {
+        "id":35,
+        "enunciado": "Qual das permissões abaixo é referente a um arquivo com a permissão SGID?",
+        "a":"4744",
+        "b":"3722",
+        "c":"2711",
+        "d":"1755",
+        "resposta":"c" 
+    },
+    {
+        "id":36,
+        "enunciado": "Qual das permissões abaixo é referente a um arquivo com a permissão Sticky Bit?",
+        "a":"4744",
+        "b":"3722",
+        "c":"2711",
+        "d":"1755",
+        "resposta":"d" 
+    },
+    {
+        "id":37,
+        "enunciado": "Qual das permissões abaixo está incorreta?",
+        "a":"4744",
+        "b":"3722",
+        "c":"2711",
+        "d":"1758",
+        "resposta":"d" 
     }
 ]
