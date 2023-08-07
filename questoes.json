@@ -340,5 +340,50 @@
         "c":"2711",
         "d":"1758",
         "resposta":"d" 
+    },
+    {
+        "id":38,
+        "enunciado": "Qual dos comandos abaixo exibe o caminho do diretório atual?",
+        "a":"PATH",
+        "b":"dir",
+        "c":"pwd",
+        "d":"ls -p",
+        "resposta":"c" 
+    },
+    {
+        "id":39,
+        "enunciado": "Qual dos comandos abaixo pode ser usado para remover um diretório e todos os arquivos dentro dele?",
+        "a":"rm DIR",
+        "b":"del DIR",
+        "c":"rm -R DIR",
+        "d":"rmdir DIR",
+        "resposta":"d" 
+    },
+    {
+        "id":40,
+        "enunciado": "Um usuário deseja executar o comando 'cat file.txt' e se esse falhar, executar o comando 'echo $PATH'. Como ele por fazer isso?",
+        "a":"$(cat file.txt) or $(echo $PATH)",
+        "b":"cat file.txt || echo $PATH",
+        "c":"cat file.txt && echo $PATH",
+        "d":"cat file.txt ; echo $PATH",
+        "resposta":"b" 
+    },
+    {
+        "id":41,
+        "enunciado": "Um usuário deseja executar o comando 'cat file.txt' e se esse for bem sucedido, executar o comando 'echo $PATH'. Como ele por fazer isso?",
+        "a":"$(cat file.txt) or $(echo $PATH)",
+        "b":"cat file.txt || echo $PATH",
+        "c":"cat file.txt && echo $PATH",
+        "d":"cat file.txt ; echo $PATH",
+        "resposta":"c" 
+    },
+    {
+        "id":42,
+        "enunciado": "Um usuário deseja executar o comando 'cat file.txt' e depois executar o comando 'echo $PATH'. Como ele por fazer isso?",
+        "a":"$(cat file.txt) or $(echo $PATH)",
+        "b":"cat file.txt || echo $PATH",
+        "c":"cat file.txt && echo $PATH",
+        "d":"cat file.txt ; echo $PATH",
+        "resposta":"d" 
     }
 ]
