@@ -385,5 +385,86 @@
         "c":"cat file.txt && echo $PATH",
         "d":"cat file.txt ; echo $PATH",
         "resposta":"d" 
+    },
+    {
+        "id":43,
+        "enunciado": "Qual das opções abaixo não é um path absoluto?",
+        "a":"home",
+        "b":"var",
+        "c":"/teste",
+        "d":"dir1",
+        "resposta":"c" 
+    },
+    {
+        "id":44,
+        "enunciado": "O comando `cp` precisa de, no mínimo, apenas um argumento:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":45,
+        "enunciado": "O comando `rm` precisa de, no mínimo, apenas um argumento:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":46,
+        "enunciado": "Se um usuário digitar o comando `RM arquivo.txt` o resultado será o mesmo de `rm arquivo.txt`:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":47,
+        "enunciado": "Se um usuário digitar o comando `rm -r DIRETORIO` o resultado será o mesmo de `rmdir DIRETORIO`:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":48,
+        "enunciado": "O comando `ping -c 5 8.8.8.8` envia 5 requisições para `8.8.8.8` e encerra:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":49,
+        "enunciado": "O comando `ping` não é capaz de operar com IPv6:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":50,
+        "enunciado": "O comando `ping -c 10 -q 8.8.8.8` expoem apenas os resultados das requisições na tela:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":51,
+        "enunciado": "O comando `ping` utiliza o protocolo:",
+        "a":"ICMP",
+        "b":"TCP",
+        "c":"UDP",
+        "d":"SSH",
+        "resposta":"a" 
     }
 ]
