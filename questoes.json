@@ -592,5 +592,23 @@
         "c":"",
         "d":"",
         "resposta":"b" 
+    },
+    {
+        "id":66,
+        "enunciado": "O símbolo '#' no terminal indica que o usuário tem privilégios administrativos:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":67,
+        "enunciado": "O símbolo '$' no terminal indica que o usuário não tem privilégios administrativos:",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
     }
 ]
