@@ -466,5 +466,131 @@
         "c":"UDP",
         "d":"SSH",
         "resposta":"a" 
+    },
+    {
+        "id":52,
+        "enunciado": "O yum é administrador de pacotes ('package manager') utilizado na distro:",
+        "a":"Ubuntu",
+        "b":"Mint",
+        "c":"Fedora",
+        "d":"FreeBSD",
+        "resposta":"c" 
+    },
+    {
+        "id":53,
+        "enunciado": "No sistema Fedora, para procurar por um pacote, podemos usar o comando:",
+        "a":"dnf --S package",
+        "b":"dnf search package",
+        "c":"dnf man package",
+        "d":"dnf lookfor package",
+        "resposta":"b" 
+    },
+    {
+        "id":54,
+        "enunciado": "No sistema Fedora, para remover um pacote, podemos usar o comando:",
+        "a":"dnf -r package",
+        "b":"dnf remove package",
+        "c":"dnf --desinstall package",
+        "d":"dnf -d package",
+        "resposta":"b" 
+    },
+    {
+        "id":55,
+        "enunciado": "A sigla 'yum' significa:",
+        "a":"Yellowdog Updater Modified",
+        "b":"Yellowdog Upgrader Modified",
+        "c":"Yellow Updater Modified",
+        "d":"Yellow Upgrader Modified",
+        "resposta":"a" 
+    },
+    {
+        "id":56,
+        "enunciado": "Para instalar um pacote a partir de um arquivo em um OS Debian/Ubuntu, podemos usar:",
+        "a":"sudo apt -i package",
+        "b":"sudo dpkg add package.txz",
+        "c":"sudo dpkg install package.rpm",
+        "d":"sudo dpkg -i package.deb",
+        "resposta":"d" 
+    },
+    {
+        "id":57,
+        "enunciado": "Para instalar um pacote a partir de um arquivo local em um OS Red Hat/Fedora:",
+        "a":"sudo dnf install package",
+        "b":"sudo dnf add package.txz",
+        "c":"sudo dnf install package.rpm",
+        "d":"sudo dnf -i package.deb",
+        "resposta":"c" 
+    },
+    {
+        "id":58,
+        "enunciado": "Em um OS Red Hat/Fedora, podemos checar se há atualizações disponíveis para os pacotes instalados usando:",
+        "a":"dnf update",
+        "b":"dnf list-update",
+        "c":"dnf check-update",
+        "d":"dnf search-update",
+        "resposta":"c" 
+    },
+    {
+        "id":59,
+        "enunciado": "Linguagens de Programação Interpretadas tendem a...",
+        "a":"Oferecer mais opções que linguagens compilas E são convertidas em instruções específicas de máquinas a medida que o código é executado.",
+        "b":"Oferecer mais opções que linguagens compilas E são convertidas em instruções específicas de máquinas durante compilação.",
+        "c":"Não requerem etapa de compilação E utiliza menos recursos para ser executada.",
+        "d":"Não requerem etapa de compilação E oferecem menos opções que linguagens compiladas.",
+        "resposta":"a" 
+    },
+    {
+        "id":60,
+        "enunciado": "É necessário abrir mão dos direitos autorais do código para usar uma licença 'open source':",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":61,
+        "enunciado": "Linux é distribuído sob a licença MIT.",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":62,
+        "enunciado": "Linux é distribuído sob a licença BSD.",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":63,
+        "enunciado": "GNOME é um ambiente de Desktop muito popular no ecossistema Linux...",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":64,
+        "enunciado": "As licenças BSD e MIT são exemplos de licenças 'permissivas':",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":65,
+        "enunciado": "As licenças GPLv2 e GPLv3 são exemplos de licenças 'permissivas':",
+        "a":"Verdadeiro",
+        "b":"Falso",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
     }
 ]
