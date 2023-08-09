@@ -610,5 +610,131 @@
         "c":"",
         "d":"",
         "resposta":"a" 
+    },
+    {
+        "id":68,
+        "enunciado": "Quais das ferrramentas abaixo podem ser usadas para implementar um firewall?",
+        "a":"Cerberus e iptables",
+        "b":"Cerberus e gufw",
+        "c":"iptables e gufw",
+        "d":"dns e gufw",
+        "resposta":"c" 
+    },
+    {
+        "id":69,
+        "enunciado": "O comando `expr 23 * 3` vai retornar que resultado?",
+        "a":"69",
+        "b":"2",
+        "c":"12.167",
+        "d":"command 'expr' not found",
+        "resposta":"a" 
+    },
+    {
+        "id":70,
+        "enunciado": "Um software é 'backward compatible', ou, retroativamente compatível, quando...",
+        "a":"...suporta formatos de arquivo e aplicações mais antigos.",
+        "b":"...pode ser executado em máquinas mais antigas.",
+        "c":"...tem um opção 'devolve' para retornar a uma versão anterior.",
+        "d":"...versões antigas ainda são muito utilizadas ou são um padrão de mercado.",
+        "resposta":"a" 
+    },
+    {
+        "id":71,
+        "enunciado": "Marque uma diferença entre Linux e Unix:",
+        "a":"Linux foi desenvolvido pela AT&T Labs enquanto Unix é o software open source sobre o qual ele se baseia.",
+        "b":"Linux é voltado exclusivamente para uso empresarial enquanto o Unix é mais utilizado por usuários comuns.",
+        "c":"'Linux' e 'Unix' são sinônimos e se referem ao mesmo software.",
+        "d":"Linux é open source e foi desenvolvivo por Linus Torvald, enquanto Unix é software proprietário desenvolvido pela AT&T.",
+        "resposta":"d" 
+    },
+    {
+        "id":72,
+        "enunciado": "Qual das distros abaixo NÃO é baseada no Debian?",
+        "a":"Ubuntu",
+        "b":"CentOS",
+        "c":"Kali",
+        "d":"Tails",
+        "resposta":"b" 
+    },
+    {
+        "id":73,
+        "enunciado": "Qual das distros abaixo NÃO é baseada no Red Hat?",
+        "a":"Kali",
+        "b":"CentOS",
+        "c":"Fedora",
+        "d":"Oracle Linux",
+        "resposta":"a" 
+    },
+    {
+        "id":74,
+        "enunciado": "Qual das opções abaixo apresenta APENAS softwares de compartilhamento de arquivos?",
+        "a":"DHCP,Samba, PostgreSQL",
+        "b":"NFS, Samba, PostgreSQL",
+        "c":"NFS, Samba, Netatalk",
+        "d":"DHCP,Samba, Netatalk",
+        "resposta":"c" 
+    },
+    {
+        "id":75,
+        "enunciado": "No GNU/Linux, os dispositivos da máquina são identificados por arquivos no diretório...",
+        "a":"/devices",
+        "b":"/var",
+        "c":"/dev",
+        "d":"/etc",
+        "resposta":"c" 
+    },
+    {
+        "id":76,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdb2` logo ele é a:",
+        "a":"Terceira partição, do terceiro disco rígido do tipo SATA ou SCSI",
+        "b":"Terceira partição, do segundo disco rígido do tipo SATA ou SCSI.",
+        "c":"Segunda partição, do segundo disco rígido do tipo SATA ou SCSI.",
+        "d":"Segunda partição, do terceiro disco rígido do tipo SATA ou SCSI",
+        "resposta":"c" 
+    },
+    {
+        "id":77,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hda` logo ele é a:",
+        "a":"Primeiro disco rígido na primeira controladora IDE",
+        "b":"Segundo disco rígido na primeira controladora IDE",
+        "c":"Primeiro disco rígido na segunda controladora IDE",
+        "d":"Segundo disco rígido na primeira controladora SATA ou SCSI",
+        "resposta":"a" 
+    },
+    {
+        "id":78,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hda1` logo ele é a:",
+        "a":"Segunda partição do primeiro disco rígido SATA ou SCSI",
+        "b":"Segunda partição do primeiro disco rígido IDE",
+        "c":"Primeira partição do primeiro disco rígido SATA ou SCSI",
+        "d":"Primeira partição do primeiro disco rígido IDE",
+        "resposta":"d" 
+    },
+    {
+        "id":79,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hdb1` logo ele é a:",
+        "a":"Primeira partição do segundo disco rígido IDE",
+        "b":"Segunda partição do segundo disco rígido IDE",
+        "c":"Primeira partição do segundo disco rígido SATA ou SCSI",
+        "d":"Segunda partição do segundo disco rígido SATA ou SCSI",
+        "resposta":"a" 
+    },
+    {
+        "id":80,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdb1` logo ele é a:",
+        "a":"Primeira partição do segundo disco rígido IDE.",
+        "b":"Segunda partição do segundo disco rígido SATA ou SCSI.",
+        "c":"Primeira partição do segundo disco rígido SATA ou SCSI.",
+        "d":"Segunda partição do segundo disco rígido IDE.",
+        "resposta":"c" 
+    },
+    {
+        "id":81,
+        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdc8` logo ele é a:",
+        "a":"oitava partição do quarto disco rígido SATA ou IDE",
+        "b":"oitava partição do terceiro disco rígido SATA ou SCSI",
+        "c":"nona partição do quarto disco rígido SATA ou SCSI",
+        "d":"nona partição do terceiro disco rígido SATA ou IDE",
+        "resposta":"b" 
     }
 ]
