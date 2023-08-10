@@ -685,7 +685,7 @@
     },
     {
         "id":76,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdb2` logo ele é a:",
+        "enunciado": "Um dispositivo de armazenamento é representado pelo arquivo: `/dev/sdb2` logo ele é a:",
         "a":"Terceira partição, do terceiro disco rígido do tipo SATA ou SCSI",
         "b":"Terceira partição, do segundo disco rígido do tipo SATA ou SCSI.",
         "c":"Segunda partição, do segundo disco rígido do tipo SATA ou SCSI.",
@@ -694,16 +694,16 @@
     },
     {
         "id":77,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hda` logo ele é a:",
-        "a":"Primeiro disco rígido na primeira controladora IDE",
-        "b":"Segundo disco rígido na primeira controladora IDE",
-        "c":"Primeiro disco rígido na segunda controladora IDE",
-        "d":"Segundo disco rígido na primeira controladora SATA ou SCSI",
+        "enunciado": "A string `/dev/hda` representa o:",
+        "a":"Primeiro disco rígido na controladora IDE",
+        "b":"Segundo disco rígido na controladora SATA ou SCSI",
+        "c":"Primeiro disco rígido na controladora IDE",
+        "d":"Segundo disco rígido na controladora SATA ou SCSI",
         "resposta":"a" 
     },
     {
         "id":78,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hda1` logo ele é a:",
+        "enunciado": "Um dispositivo de armazenamento é representado pelo arquivo: `/dev/hda1` logo ele é a:",
         "a":"Segunda partição do primeiro disco rígido SATA ou SCSI",
         "b":"Segunda partição do primeiro disco rígido IDE",
         "c":"Primeira partição do primeiro disco rígido SATA ou SCSI",
@@ -712,7 +712,7 @@
     },
     {
         "id":79,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/hdb1` logo ele é a:",
+        "enunciado": "Um dispositivo de armazenamento é representado pelo arquivo: `/dev/hdb1` logo ele é a:",
         "a":"Primeira partição do segundo disco rígido IDE",
         "b":"Segunda partição do segundo disco rígido IDE",
         "c":"Primeira partição do segundo disco rígido SATA ou SCSI",
@@ -721,7 +721,7 @@
     },
     {
         "id":80,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdb1` logo ele é a:",
+        "enunciado": "Um dispositivo de armazenamento é representado pelo arquivo: `/dev/sdb1` logo ele é a:",
         "a":"Primeira partição do segundo disco rígido IDE.",
         "b":"Segunda partição do segundo disco rígido SATA ou SCSI.",
         "c":"Primeira partição do segundo disco rígido SATA ou SCSI.",
@@ -730,11 +730,74 @@
     },
     {
         "id":81,
-        "enunciado": "Um disco rígido é representado pelo arquivo: `/dev/sdc8` logo ele é a:",
+        "enunciado": "Um dispositivo de armazenamento é representado pelo arquivo: `/dev/sdc8` logo ele é a:",
         "a":"oitava partição do quarto disco rígido SATA ou IDE",
         "b":"oitava partição do terceiro disco rígido SATA ou SCSI",
         "c":"nona partição do quarto disco rígido SATA ou SCSI",
         "d":"nona partição do terceiro disco rígido SATA ou IDE",
         "resposta":"b" 
+    },
+    {
+        "id":82,
+        "enunciado": "LVM significa...",
+        "a":"Logical Volume Manager, software que permite administradores combinar discos individuais e partições como um único drive",
+        "b":"Logical Volume Manager, software que permite administradores combinar adicionar novos volumes a partir de equipamentos físico inserido na máquina",
+        "c":"Logical Volume Maker, software que permite administradores combinar discos individuais e partições como um único drive",
+        "d":"Logical Volume Maker, software que permite administradores combinar adicionar novos volumes a partir de equipamentos físico inserido na máquina",
+        "resposta":"a" 
+    },
+    {
+        "id":83,
+        "enunciado": "Qual é o objetivo principal do comando `fdisk` no Linux?",
+        "a":"Para criar links simbólicos entre arquivos.",
+        "b":"Para formatar um sistema de arquivos em uma partição.",
+        "c":"Para listar o conteúdo de um diretório.",
+        "d":"Para exibir informações do sistema e uso de recursos.",
+        "resposta":"b" 
+    },
+    {
+        "id":84,
+        "enunciado": "Qual das seguintes afirmações descreve com precisão o propósito do comando `lsblk` no Linux?",
+        "a":"É usado para listar o conteúdo de um diretório.",
+        "b":"Formata um sistema de arquivos em uma partição.",
+        "c":"Exibe informações sobre sistemas de arquivos montados.",
+        "d":"Cria links simbólicos entre arquivos.",
+        "resposta":"c" 
+    },
+    {
+        "id":85,
+        "enunciado": "O comando `ln 1 2` vai criar um hard link: '2' para o arquivo 1",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":86,
+        "enunciado": "Seja o comando: `ln 1 2`, uma edição no arquivo '1' vai ser visível no link 2.",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
+    },
+    {
+        "id":87,
+        "enunciado": "Um link simbólico pode apontar para arquivos em outros sistemas de arquivos, mas não arquivos que foram apagados.",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"b" 
+    },
+    {
+        "id":88,
+        "enunciado": "O comando `ln /dev/source_FS/file /dev/destination_FS/file_link` vai gerar uma mensagem de erro:",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"a" 
     }
 ]
