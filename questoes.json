@@ -793,11 +793,29 @@
     },
     {
         "id":88,
-        "enunciado": "O comando `ln /dev/source_FS/file /dev/destination_FS/file_link` vai gerar uma mensagem de erro:",
+        "enunciado": "Kernel é um programa que haje como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:",
         "a":"VERDADEIRO",
         "b":"FALSO",
         "c":"",
         "d":"",
         "resposta":"a" 
+    },
+    {
+        "id":89,
+        "enunciado": "O comando `ln /dev/SISTEMA_DE_ARQUIVOS_1/file /dev/SISTEMA_DE_ARQUIVOS_2/file_link` vai gerar uma mensagem de erro:",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"FALSO - O comando `ln` funciona entre sistemas de arquivos." 
+    },
+    {
+        "id":90,
+        "enunciado": "O comando `for x in {1..10}; echo $x; done;` vai imprimir os números entre 1 e 10 na tela:",
+        "a":"VERDADEIRO",
+        "b":"FALSO",
+        "c":"",
+        "d":"",
+        "resposta":"b - O correto seria `for x in {1..10}; do echo $x; done;`."
     }
 ]
