@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questões Linux</title>
-
+    
     <style>
+        .novaQuestao {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /*display: inline-block;*/
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #04AA6D;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            width: 50%;
+        }
 
+        .novaQuestao:hover {background-color: #3e8e41}
 
+        .novaQuestao:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        
+        .alternativa {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            border: 0px solid #555555;
+            color: black;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            width: 50%;
+            text-align: left;
+        }
+        .alternativa:hover {
+            background-color: #555555;
+            color: white;
+        }
+
+        .campoResposta {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
     </style>
 </head>
 <body>
@@ -15,15 +63,14 @@
     <p>Placar: <a id="certas">0</a>/<a id="feitas">0</a></p>
     <div class="box" id="minhacaixa">
         <i><p id="enunciado">Kernel é um programa que haje como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:</p></i>
-        <div class="alternativa">
-            <button onclick="checaResposta('a')"><p id="a">VERDADEIRO</p></button><br><br>
-        </div>
-        <button onclick="checaResposta('b')"><p id="b">FALSO</p></button><br><br>
-        <button onclick="checaResposta('c')"><p id="c"></p></button><br><br>
-        <button onclick="checaResposta('d')"><p id="d"></p></button><br><br>
+        <button class="alternativa" onclick="checaResposta('a')"><p id="a">VERDADEIRO</p></button><br>
+        <button class="alternativa" onclick="checaResposta('b')"><p id="b">FALSO</p></button><br>
+        <button class="alternativa" onclick="checaResposta('c')"><p id="c"></p></button><br>
+        <button class="alternativa" onclick="checaResposta('d')"><p id="d"></p></button><br>
         <br>
+        <p id="campoResposta" class="campoResposta"></p>
     </div>
-    <button onclick="PegaQuestao()">Nova questão</button>
+    <button class="novaQuestao" onclick="PegaQuestao()">Nova questão</button>
 <script>
     let respostaGlobal = 'a';
     let totalQuestoesFeitas = 0;
@@ -31,6 +78,7 @@
 
     async function PegaQuestao() {
         try {
+            document.getElementById("campoResposta").innerHTML = "";
             console.log(respostaGlobal);
             // Fetch data from the server
             const response = await fetch("http://127.0.0.1:5000/data");
@@ -67,15 +115,17 @@
     function checaResposta(respostaDoAluno) {
         try {
             if (respostaDoAluno == respostaGlobal) {
-                alert("Acertou!");
+                //alert("Acertou!");
                 totalQuestoesFeitas += 1;
                 totalQuestoesCertas += 1;
                 document.getElementById("feitas").innerHTML = totalQuestoesFeitas;
                 document.getElementById("certas").innerHTML = totalQuestoesCertas;
+                document.getElementById("campoResposta").innerHTML = "Parabéns! Você acertou!";
             } else {
-                alert("Errou!");
+                //alert("Errou!");
                 totalQuestoesFeitas += 1;
                 document.getElementById("feitas").innerHTML = totalQuestoesFeitas;
+                document.getElementById("campoResposta").innerHTML = "Errado. A resposta correta é alternativa '" + respostaGlobal + "'";
             }
         } catch (error) {
             console.error("Error fetching data:", error);
