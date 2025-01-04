@@ -793,7 +793,7 @@
     },
     {
         "id":88,
-        "enunciado": "Kernel é um programa que haje como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:",
+        "enunciado": "Kernel é um programa que age como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:",
         "a":"VERDADEIRO",
         "b":"FALSO",
         "c":"",
