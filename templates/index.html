@@ -6,6 +6,21 @@
     <title>Questões Linux</title>
     
     <style>
+        body {
+          font-family: Tahoma, sans-serif;
+        }
+
+        .placar {
+            border-radius: 50px;
+            background: #074c9b;
+            padding: 5px; 
+            width: 15%;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            /*height: 150px;*/
+        }
+
         .novaQuestao {
             display: block;
             margin-left: auto;
@@ -56,11 +71,22 @@
             margin-right: auto;
             width: 25%;
         }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
-    <h1>Questões para o Linux Essentials</h1>
-    <p>Placar: <a id="certas">0</a>/<a id="feitas">0</a></p>
+    <div class="container">
+        <h1>Questões para o Linux Essentials</h1>
+        <div class="placar" id="placar">
+            <p>Placar: <a id="certas">0</a>/<a id="feitas">0</a></p>
+        </div>
+    </div>
+        
     <div class="box" id="minhacaixa">
         <i><p id="enunciado">Kernel é um programa que haje como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:</p></i>
         <button class="alternativa" onclick="checaResposta('a')"><p id="a">VERDADEIRO</p></button><br>
