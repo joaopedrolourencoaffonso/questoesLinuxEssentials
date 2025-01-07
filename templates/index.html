@@ -130,7 +130,7 @@
     async function PegaQuestao() {
         try {
             document.getElementById("campoResposta").innerHTML = "";
-            console.log(respostaGlobal);
+            //console.log(certasDireto);
             // Fetch data from the server
             const response = await fetch("http://127.0.0.1:5000/data");
             
@@ -165,6 +165,7 @@
 
     async function checaResposta(respostaDoAluno) {
         try {
+            console.log(certasDireto);
             if (respostaDoAluno == respostaGlobal) {
                 //alert("Acertou!");
                 totalQuestoesFeitas += 1;
@@ -180,7 +181,7 @@
                 document.getElementById("feitas").innerHTML = totalQuestoesFeitas;
                 document.getElementById("campoResposta").innerHTML = "Errado. A resposta correta é alternativa '" + respostaGlobal + "'";
             }
-
+            console.log("1");
             if (certasDireto == 10) {
                 showElement();
                 await sleep(2000);
@@ -194,6 +195,7 @@
     
     async function showElement() {
         var element = document.getElementById("box");
+        element.style.display = "inline";
         element.style.bottom = "25%"; // Move to the top
         element.style.visibility = "visible";  // Make it visible
         element.style.opacity = "1";
