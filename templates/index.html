@@ -77,6 +77,20 @@
             align-items: center;
             justify-content: space-between;
         }
+
+        .box {
+            position: absolute;
+            text-align: center;
+            bottom: -100px;  /* Start off-screen at the bottom */
+            left: 50%;       /* Optional: Center horizontally */
+            transform: translateX(-50%); /* Optional: Exact centering */
+            background-color: lightcoral;
+            padding: 20px;
+            color: white;
+            visibility: hidden;  /* Initially hidden */
+            opacity: 0; /* Initially invisible */
+            transition: bottom 0.5s ease, opacity 0.5s ease;  /* Smooth transition */
+        }
     </style>
 </head>
 <body>
@@ -87,7 +101,7 @@
         </div>
     </div>
         
-    <div class="box" id="minhacaixa">
+    <div class="corpo" id="minhacaixa">
         <i><p id="enunciado">Kernel é um programa que haje como interface entre o sistema operacinal e (dentre outros componentes físicos) a memória:</p></i>
         <button class="alternativa" onclick="checaResposta('a')"><p id="a">VERDADEIRO</p></button><br>
         <button class="alternativa" onclick="checaResposta('b')"><p id="b">FALSO</p></button><br>
@@ -97,10 +111,21 @@
         <p id="campoResposta" class="campoResposta"></p>
     </div>
     <button class="novaQuestao" onclick="PegaQuestao()">Nova questão</button>
+
+    <!--<button onclick="showElement()">Show Element</button>
+    <button onclick="hideElement()">Hide Element</button>-->
+
+    <div class="box" id="box">
+        Parabéns, você acertou 10 questões direto!
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png">
+        <!--Essa figura foi tirada da wikimedia commons, nem vem que não tem, Nintendo-->
+    </div>
 <script>
     let respostaGlobal = 'a';
     let totalQuestoesFeitas = 0;
     let totalQuestoesCertas = 0;
+    let certasDireto = 0;
 
     async function PegaQuestao() {
         try {
@@ -138,24 +163,53 @@
         }
     }
 
-    function checaResposta(respostaDoAluno) {
+    async function checaResposta(respostaDoAluno) {
         try {
             if (respostaDoAluno == respostaGlobal) {
                 //alert("Acertou!");
                 totalQuestoesFeitas += 1;
                 totalQuestoesCertas += 1;
+                certasDireto += 1;
                 document.getElementById("feitas").innerHTML = totalQuestoesFeitas;
                 document.getElementById("certas").innerHTML = totalQuestoesCertas;
                 document.getElementById("campoResposta").innerHTML = "Parabéns! Você acertou!";
             } else {
                 //alert("Errou!");
                 totalQuestoesFeitas += 1;
+                certasDireto = 0;
                 document.getElementById("feitas").innerHTML = totalQuestoesFeitas;
                 document.getElementById("campoResposta").innerHTML = "Errado. A resposta correta é alternativa '" + respostaGlobal + "'";
+            }
+
+            if (certasDireto == 10) {
+                showElement();
+                await sleep(2000);
+                hideElement();
+                certasDireto = 0;
             }
         } catch (error) {
             console.error("Error fetching data:", error);
         }
+    }
+    
+    async function showElement() {
+        var element = document.getElementById("box");
+        element.style.bottom = "25%"; // Move to the top
+        element.style.visibility = "visible";  // Make it visible
+        element.style.opacity = "1";
+    }
+    
+    // Function to hide the element by moving it back down
+    async function hideElement() {
+      var element = document.getElementById("box");
+      element.style.bottom = "-75%"; // Move it back off-screen
+      await sleep(1000);
+      element.style.visibility = "hidden";  // Hide it
+      element.style.opacity = "0";
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
     }
 </script>
 </body>
