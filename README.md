@@ -1,4 +1,4 @@
-# Linux Essentials Test Questions Repository
+# Questões para o Linux Essentials
 
 ![Linux Essentials](https://img.shields.io/badge/Linux-Essentials-orange)
 ![Questões](https://img.shields.io/badge/Questions-100%2B-brightgreen)
