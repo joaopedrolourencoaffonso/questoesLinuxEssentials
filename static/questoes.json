@@ -807,7 +807,7 @@
         "b":"FALSO",
         "c":"",
         "d":"",
-        "resposta":"FALSO - O comando `ln` funciona entre sistemas de arquivos." 
+        "resposta":"b" 
     },
     {
         "id":90,
@@ -816,6 +816,132 @@
         "b":"FALSO",
         "c":"",
         "d":"",
-        "resposta":"b - O correto seria `for x in {1..10}; do echo $x; done;`."
+        "resposta":"b"
+    },
+    {
+        "id":91,
+        "enunciado": "Qual dos comandos abaixo não pode ser utilizado para ler um arquivo de texto?",
+        "a":"cat",
+        "b":"vim",
+        "c":"more",
+        "d":"open",
+        "resposta":"d"
+    },
+    {
+        "id":92,
+        "enunciado": "A partição ___ é um espaço de disco rígido reservado para o uso de sistema operacional como 'complemento' da memória RAM.",
+        "a":"swap",
+        "b":"root",
+        "c":"switch",
+        "d":"tmp",
+        "resposta":"a"
+    },
+    {
+        "id":93,
+        "enunciado": "O diretório ___ contém arquivos variáveis ​​que mudam com frequência, como arquivos de log, arquivos de spool (para trabalhos de impressão, e-mail, etc.) e arquivos temporários.",
+        "a":"swap",
+        "b":"root",
+        "c":"var",
+        "d":"tmp",
+        "resposta":"c"
+    },
+    {
+        "id":94,
+        "enunciado": "Qual é o nome do diretório de nível superior na hierarquia do sistema de arquivos Linux que contém todos os outros diretórios e arquivos?",
+        "a":"swap",
+        "b":"root",
+        "c":"var",
+        "d":"tmp",
+        "resposta":"b"
+    },
+    {
+        "id":95,
+        "enunciado": "Qual é a partição que contém arquivos como o GRUB, imagens kernel e 'initial ramdisk'(initrd)?",
+        "a":"swap",
+        "b":"boot",
+        "c":"var",
+        "d":"tmp",
+        "resposta":"b"
+    },
+    {
+        "id":96,
+        "enunciado": "Qual é a partição usada para montar sistemas de arquivos temporários e dispositivos externos?",
+        "a":"mnt",
+        "b":"mount",
+        "c":"dvmnt",
+        "d":"dev",
+        "resposta":"a"
+    },
+    {
+        "id":97,
+        "enunciado": "Qual é a partição que contém arquivos de biblioteca compartilhada necessários para binários e aplicativos do sistema?",
+        "a":"library",
+        "b":"share",
+        "c":"lib",
+        "d":"etc",
+        "resposta":"c"
+    },
+    {
+        "id":98,
+        "enunciado": "Qual é a partição que contém arquivos de configuração para o sistema e aplicações?",
+        "a":"sys",
+        "b":"config",
+        "c":"lib",
+        "d":"etc",
+        "resposta":"d"
+    },
+    {
+        "id":99,
+        "enunciado": "O diretório ___ é um sistema de arquivos virtual que expõe informações assim como configurações sobre o kernel, dispositivos e outros atributos do sistema.",
+        "a":"sys",
+        "b":"config",
+        "c":"lib",
+        "d":"etc",
+        "resposta":"a"
+    },
+    {
+        "id":100,
+        "enunciado": "Arquivos de dispositivos periféricos e de hardware são armazenados no diretório...",
+        "a":"sys",
+        "b":"dev",
+        "c":"swap",
+        "d":"etc",
+        "resposta":"b"
+    },
+    {
+        "id":101,
+        "enunciado": "O diretório ___ contém software complementar e programas maiores podem ser instalados nela em vez do /usr",
+        "a":"opt",
+        "b":"proc",
+        "c":"srv",
+        "d":"var",
+        "resposta":"a"
+    },
+    {
+        "id":102,
+        "enunciado": "Qual é o ponto de montagem padrão para dispositivos removíveis, como USBs?",
+        "a":"opt",
+        "b":"mnt",
+        "c":"media",
+        "d":"dev",
+        "resposta":"c"
+    },
+    {
+        "id":103,
+        "enunciado": "Qual é a partição que contém os binários de sistema (system binaries) que são usados para inicializar, manter e recuperar o computador?",
+        "a":"bin",
+        "b":"sys",
+        "c":"sbin",
+        "d":"sysdev",
+        "resposta":"c"
+    },
+    {
+        "id":104,
+        "enunciado": "Qual é a partição que contém sistemas de arquivos (Filesystems) virtuais que descrever informações de processo como se fossem arquivos?",
+        "a":"bin",
+        "b":"proc",
+        "c":"opt",
+        "d":"sysdev",
+        "resposta":"b"
     }
 ]
