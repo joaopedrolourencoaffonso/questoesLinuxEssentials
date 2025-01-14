@@ -943,5 +943,32 @@
         "c":"opt",
         "d":"sysdev",
         "resposta":"b"
+    },
+    {
+        "id":105,
+        "enunciado": "O que o arquivo /var/log/messages faz?",
+        "a":"Armazena as mensagens de aplicativos de mensagens, como Whatsapp e Telegram",
+        "b":"Armazena os logs do serviço de e-mail",
+        "c":"Armazena mensagens de sistema, como o resultado de execução de arquivos binários e atualizações de sistema operacional",
+        "d":"Armazena mensagens de sistema e logs relacionados a eventos de sistema, como erros, warnings, ",
+        "resposta":"d"
+    },
+    {
+        "id":106,
+        "enunciado": "Que tipo de logs NÃO são encontrados no arquivo /var/log/messages ?",
+        "a":"Inicialização e desligamento do computador",
+        "b":"eventos de kernel",
+        "c":"systemd",
+        "d":"rsyslog",
+        "resposta":"c"
+    },
+    {
+        "id":107,
+        "enunciado": "Em qual desses arquivos você encontrará os logs do systemd?",
+        "a":"/var/log/journal",
+        "b":"/var/log/syslog",
+        "c":"/var/log/messages",
+        "d":"/var/log/kernel",
+        "resposta":"a"
     }
 ]
