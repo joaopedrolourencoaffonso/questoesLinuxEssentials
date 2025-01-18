@@ -970,5 +970,32 @@
         "c":"/var/log/messages",
         "d":"/var/log/kernel",
         "resposta":"a"
+    },
+    {
+        "id":108,
+        "enunciado": "Qual comando abaixo vai fazer com que o arquivo `file.txt` não seja listado pelo comando `ls`?",
+        "a":"hide file.txt",
+        "b":"sudo hide file.txt",
+        "c":"mv file.txt /secrets/file.txt",
+        "d":"mv file.txt .file.txt",
+        "resposta":"d"
+    },
+    {
+        "id":109,
+        "enunciado": "O que os comandos: ls, tree e mv fazem respectivamente?",
+        "a":"lista conteúdos no diretório, exibe a estrutura hierárquica de arquivos em formato de árvore e editam o path de um arquivo",
+        "b":"lista conteúdos no diretório, listam arquivos no formato `.tree` e editam o path de um arquivo",
+        "c":"lista arquivos do tipo light storage, exibe a estrutura hierárquica de arquivos em formato de árvore e editam o path de um arquivo",
+        "d":"lista arquivos do tipo light storage, listam arquivos no formato `.tree` e editam o path de um arquivo",
+        "resposta":"a"
+    },
+    {
+        "id":110,
+        "enunciado": "O que o comando `ls -R` vai fazer?",
+        "a":"listar recursivamente todos os arquivos de um diretório",
+        "b":"listar recursivamente todos os arquivos no sistema de arquivos",
+        "c":"listar todos os arquvios da linguagem de programação 'R' em um diretório",
+        "d":"listar todos os arquvios da linguagem de programação 'R' no sistema de arquivos",
+        "resposta":"a"
     }
 ]
