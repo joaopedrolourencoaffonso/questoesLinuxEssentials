@@ -997,5 +997,23 @@
         "c":"listar todos os arquvios da linguagem de programação 'R' em um diretório",
         "d":"listar todos os arquvios da linguagem de programação 'R' no sistema de arquivos",
         "resposta":"a"
+    },
+    {
+        "id":111,
+        "enunciado": "Qual desses é o diretório padrão para usuários locais no Linux?",
+        "a":"/user",
+        "b":"/default",
+        "c":"/home",
+        "d":"/home/user",
+        "resposta":"c"
+    },
+    {
+        "id":112,
+        "enunciado": "Qual é o diretório padrão para logs?",
+        "a":"/logs",
+        "b":"/var/log",
+        "c":"/var/logs",
+        "d":"/var/default/logs",
+        "resposta":"c"
     }
 ]
